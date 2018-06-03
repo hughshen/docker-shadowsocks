@@ -1,6 +1,7 @@
 FROM alpine
 
 RUN apk add --no-cache \
+    tzdata \
     python \
     py-pip \
     && pip install --upgrade pip \
